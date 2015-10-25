@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function countE(){
+			var phrase = prompt("Whick phrase would you like to examine?");
+			if (typeof(phrase) != "string"){
+				alert("That's not a valid entry!");
+				return false;
+			} else {
+				var eCount = 0;
+				for (var index = 0; index < phrase.length; index++){
+					var character = phrase.charAt(index);
+					if(character == 'e' || character == 'E'){
+						eCount++;
+					}
+				}
+				alert("There are "+eCount+ " E's in \""+phrase+"\".");
+				return true;
+			}
+		}
+		countE()
+	</script>
+</body>
+</html>
