@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Testing panels</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+<body>
+<br>
+  <div class="panel-group" id="accordion2" role="tablist">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingPeter">
+          <h3 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapsePeter">
+              Peter Pan<small>Chief Epicurious</small>
+              </a>
+          </h3>
+      </div>
+      <div role="tabpanel" class="panel-collapse collapse in" id="collapsePeter">
+        <div class="panel-body">
+          ...
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingPeter2">
+          <h3 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapsePeter2">
+              Peter Pan
+            <small>Chief Epicurious</small></a>
+          </h3>
+      </div>
+      <div role="tabpanel" class="panel-collapse collapse" id="collapsePeter2">
+        <div class="panel-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
