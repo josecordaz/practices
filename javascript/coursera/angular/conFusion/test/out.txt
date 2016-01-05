@@ -1,0 +1,159 @@
+[33m04 01 2016 04:06:32.610:WARN [karma]: [39mNo captured browser, open http://localhost:9876/
+[32m04 01 2016 04:06:32.626:INFO [karma]: [39mKarma v0.13.16 server started at http://localhost:9876/
+[32m04 01 2016 04:06:32.626:INFO [launcher]: [39mStarting browser Chrome
+[32m04 01 2016 04:06:32.642:INFO [launcher]: [39mStarting browser PhantomJS
+[32m04 01 2016 04:06:32.642:INFO [launcher]: [39mStarting browser PhantomJS
+[32m04 01 2016 04:06:32.642:INFO [phantomjs.launcher]: [39mACTION REQUIRED:
+[32m04 01 2016 04:06:32.642:INFO [phantomjs.launcher]: [39m
+[32m04 01 2016 04:06:32.642:INFO [phantomjs.launcher]: [39m  Launch browser at
+[32m04 01 2016 04:06:32.657:INFO [phantomjs.launcher]: [39m  http://localhost:9000/webkit/inspector/inspector.html?page=2
+[32m04 01 2016 04:06:32.657:INFO [phantomjs.launcher]: [39m
+[32m04 01 2016 04:06:32.657:INFO [phantomjs.launcher]: [39mWaiting 15 seconds ...
+[32m04 01 2016 04:06:33.348:INFO [PhantomJS 1.9.8 (Windows 8 0.0.0)]: [39mConnected on socket 5Ib6SyRDdtUI5wZOAAAA with id 84559080
+[32m04 01 2016 04:06:35.051:INFO [Chrome 47.0.2526 (Windows 8.1 0.0.0)]: [39mConnected on socket sTnNRERlbmYQvGjNAAAB with id 96023036
+[32m04 01 2016 04:06:48.359:INFO [PhantomJS 1.9.8 (Windows 8 0.0.0)]: [39mConnected on socket bUd0wyTUq-FNPY2wAAAC with id 9059135
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0) Controller: MenuController should have showDetails as false FAILED
+	Error: [$injector:unpr] Unknown provider: $resourceProvider <- $resource <- menuFactory
+	http://errors.angularjs.org/1.4.8/$injector/unpr?p0=%24resourceProvider%20%3C-%20%24resource%20%3C-%20menuFactory
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4334
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4339
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at instantiate (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4531)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4391
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at enforcedReturnValue (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4375)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4340
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at workFn (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular-mocks/angular-mocks.js:2439)
+	undefined
+	TypeError: 'undefined' is not an object (evaluating 'scope.showDetails')
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontroller.js:47
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 1 of 2 (1 FAILED) (0 secs / 0.01 secs)
+[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0) Controller: MenuController should have showDetails as false FAILED
+	Error: [$injector:unpr] Unknown provider: $resourceProvider <- $resource <- menuFactory
+	http://errors.angularjs.org/1.4.8/$injector/unpr?p0=%24resourceProvider%20%3C-%20%24resource%20%3C-%20menuFactory
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4334
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4339
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at instantiate (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4531)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4391
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at enforcedReturnValue (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4375)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4340
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at workFn (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular-mocks/angular-mocks.js:2439)
+	undefined
+	TypeError: 'undefined' is not an object (evaluating 'scope.showDetails')
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontrollers.js:47
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) (0 secs / 0.013 secs)
+[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+
+[1A[2K[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2K[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0) Controller: MenuController should have showDetails as false FAILED
+	Error: [$injector:unpr] Unknown provider: $resourceProvider <- $resource <- menuFactory
+	http://errors.angularjs.org/1.4.8/$injector/unpr?p0=%24resourceProvider%20%3C-%20%24resource%20%3C-%20menuFactory
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4334
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4339
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at instantiate (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4531)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4391
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at enforcedReturnValue (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4375)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4340
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at workFn (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular-mocks/angular-mocks.js:2439)
+	undefined
+	TypeError: 'undefined' is not an object (evaluating 'scope.showDetails')
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontroller.js:47
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 1 of 2 (1 FAILED) (0 secs / 0.011 secs)
+[1A[2K[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0) Controller: MenuController should have showDetails as false FAILED
+	Error: [$injector:unpr] Unknown provider: $resourceProvider <- $resource <- menuFactory
+	http://errors.angularjs.org/1.4.8/$injector/unpr?p0=%24resourceProvider%20%3C-%20%24resource%20%3C-%20menuFactory
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4334
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4339
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at instantiate (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4531)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4391
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at enforcedReturnValue (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4375)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4340
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514)
+	    at workFn (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular-mocks/angular-mocks.js:2439)
+	undefined
+	TypeError: 'undefined' is not an object (evaluating 'scope.showDetails')
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontrollers.js:47
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) (0 secs / 0.014 secs)
+[1A[2K[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.006 secs / 0.014 secs)
+
+[1A[2K[1A[2K[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.006 secs / 0.014 secs)
+Chrome 47.0.2526 (Windows 8.1 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 47.0.2526 (Windows 8.1 0.0.0) Controller: MenuController should have showDetails as false FAILED
+	Error: [$injector:unpr] Unknown provider: $resourceProvider <- $resource <- menuFactory
+	http://errors.angularjs.org/1.4.8/$injector/unpr?p0=%24resourceProvider%20%3C-%20%24resource%20%3C-%20menuFactory
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:68:12
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4334:19
+	    at Object.getService [as get] (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482:39)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4339:45
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482:39)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514:13)
+	    at Object.instantiate (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4531:27)
+	    at Object.<anonymous> (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4391:24)
+	    at Object.invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523:17)
+	    at Object.enforcedReturnValue [as $get] (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4375:37)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular-mocks/angular-mocks.js:2410:25)
+	    at Suite.<anonymous> (E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontroller.js:9:14)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontroller.js:1:1
+	TypeError: Cannot read property 'showDetails' of undefined
+	    at Object.<anonymous> (E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontroller.js:47:17)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.006 secs / 0.014 secs)
+Chrome 47.0.2526 (Windows 8.1 0.0.0): Executed 1 of 2 (1 FAILED) (0 secs / 0.027 secs)
+[1A[2K[1A[2K[1A[2KChrome 47.0.2526 (Windows 8.1 0.0.0) Controller: MenuController should have showDetails as false FAILED
+	Error: [$injector:unpr] Unknown provider: $resourceProvider <- $resource <- menuFactory
+	http://errors.angularjs.org/1.4.8/$injector/unpr?p0=%24resourceProvider%20%3C-%20%24resource%20%3C-%20menuFactory
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:68:12
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4334:19
+	    at Object.getService [as get] (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482:39)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4339:45
+	    at getService (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4482:39)
+	    at invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4514:13)
+	    at Object.instantiate (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4531:27)
+	    at Object.<anonymous> (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4391:24)
+	    at Object.invoke (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4523:17)
+	    at Object.enforcedReturnValue [as $get] (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular/angular.js:4375:37)
+	Error: Declaration Location
+	    at window.inject.angular.mock.inject (E:/Documents/practices/javascript/coursera/angular/conFusion/bower_components/angular-mocks/angular-mocks.js:2410:25)
+	    at Suite.<anonymous> (E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontrollers.js:9:14)
+	    at E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontrollers.js:1:1
+	TypeError: Cannot read property 'showDetails' of undefined
+	    at Object.<anonymous> (E:/Documents/practices/javascript/coursera/angular/conFusion/test/unit/controllers/menucontrollers.js:47:17)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.006 secs / 0.014 secs)
+Chrome 47.0.2526 (Windows 8.1 0.0.0): Executed 2 of 2 (2 FAILED) (0 secs / 0.032 secs)
+[1A[2K[1A[2K[1A[2KPhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.004 secs / 0.013 secs)
+PhantomJS 1.9.8 (Windows 8 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.006 secs / 0.014 secs)
+Chrome 47.0.2526 (Windows 8.1 0.0.0): Executed 2 of 2 (2 FAILED) ERROR (0.038 secs / 0.032 secs)
+¨Desea terminar el trabajo por lotes (S/N)? 
