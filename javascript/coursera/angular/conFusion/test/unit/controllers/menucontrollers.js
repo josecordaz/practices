@@ -51,7 +51,7 @@ describe('Controller: MenuController', function () {
 
   });
 
-  /*it('should create "dishes" with 2 dishes fetched from xhr', function(){
+  it('should create "dishes" with 2 dishes fetched from xhr', function(){
 
       expect(scope.showMenu).toBeTruthy();
       expect(scope.dishes).toBeDefined();
@@ -75,6 +75,6 @@ describe('Controller: MenuController', function () {
       expect(scope.tab).toEqual(3);
       expect(scope.filtText).toEqual('mains');
 
-  });*/
+  });
 
 });
